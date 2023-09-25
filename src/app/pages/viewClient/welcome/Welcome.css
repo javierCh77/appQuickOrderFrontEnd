@@ -1,0 +1,154 @@
+.container-todo{
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.container-img{
+    display:flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 75vh;
+}
+
+.container-lang{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 5vh;
+    background-color:rgb(43, 43, 43) ;
+}
+.img-lang{
+    margin-right: 20px;
+}
+ 
+
+ 
+.button-start{
+    font-size: 1.5rem;
+    height: 17vh;
+    width: 100vw;
+    background-color: #A50845;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    color:white;
+    text-decoration: none!important;
+} 
+#link-start{
+    text-decoration: none;
+}
+
+#box1{
+    background-image:url( "../../../../assets/waffle/ww3.jpg");
+    height: 75vh;
+    width: 95vw;
+    background-repeat: no-repeat, repeat;
+    background-position: center;        
+    background-size: cover;
+    animation-name: floating;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    border-radius: 5px;
+}
+#box2{
+    background-image:url( "../../../../assets/waffle/ww1.jpeg");
+    height: 75vh;
+    width: 95vw;
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#box3{
+    background-image:url( "../../../../assets/waffle/w8.jpg");
+    height: 75vh;
+    width: 95vw;
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+    animation-name: floating;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out; 
+    border-radius: 5px;
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 3px); }
+    100%   { transform: translate(0, -0px); }   
+}
+/*aqui la configuracion de la vista para la pantalla TV 1020 x 1980*/
+@media only screen and (min-width: 1080px) and (min-height: 1920px){ 
+    .container-lang{
+        display: flex;
+        align-items: center;
+    }
+    #btn{
+        width: 35vw;
+        height: 4vh;
+        font-size: 40px!important;
+    }
+    .button-start{
+        font-size: 3rem;
+    }  
+}
+/*aqui la configuracion vista mobile*/
+@media only screen and (min-width: 360px) and (max-width:768px)  {
+    .container-todo{
+        width: 100vw;
+        height: 100vh;
+    }
+    .container-img{
+        display: flex;
+        flex-direction: row;
+        height: 80vh;
+    }
+    #box1{
+        width: 100vw;
+        animation-duration: 0s;
+        border-radius: 0px;
+    }
+    #box2{
+        width: 100vw;
+        animation-duration: 0s;
+        border-radius: 0px;
+    }
+    #box3{
+        width: 100vw;
+        animation-duration: 0s;
+        border-radius: 0px;
+    }
+   .container-lang{
+        display:flex;
+        align-items: center;
+        height: 5vh;
+   }
+   #btn{
+        width: 35vw;
+        height: 5.5vh;
+   }
+   .button-start{
+        height: 15vh;
+        font-size: 18px;
+   }
+}
+
+
+
+
+
+
+
+
+

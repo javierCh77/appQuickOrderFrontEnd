@@ -1,0 +1,40 @@
+.header-logo {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+.container-test {
+  display: flex;
+  gap: 10px;
+}
+.menu{
+  width: 20%!important;
+  align-items: center;
+}
+.offcanvas-header{
+  width: 100%;
+  display:flex!important;
+  margin-bottom: 1em;
+  justify-content: space-between!important;
+}
+
+.test:hover{
+  color:rgb(240, 58, 58)!important;
+  font-size: 1.1rem !important;
+}
+.link-menu{
+  display:Flex;
+  gap:10px;
+  padding: 10px;
+}
+
+.container-logout{
+  margin-top: 10rem;
+}
+
+.closed{
+  margin-right: 10px;
+}
+
+

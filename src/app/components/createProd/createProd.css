@@ -1,0 +1,26 @@
+.container-modal{
+    display: flex;
+    justify-content: center;
+    align-items: center!important;
+}
+
+.modal-content{
+    display:Flex;
+    background-color: rgb(227,197,197)!important;
+}
+
+.modal-header{
+    background-color: #A50845;
+    width: 100%;
+}
+.container-input{  
+    display:flex;
+    flex-direction: column;
+    
+}
+.datos2{
+    display:flex;
+    justify-content: center;
+    gap:10px;
+}
+

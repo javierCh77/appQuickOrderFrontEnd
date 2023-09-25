@@ -1,0 +1,11 @@
+.container-sales{
+    justify-content:space-around;
+    display:flex;
+    width: 100vw;
+    margin-top: 3vh!important;
+}
+.title{
+    background-color: #A50845;
+    text-align: center;
+    color:white;
+}

@@ -1,0 +1,49 @@
+.modal-content{
+    background-color: rgb(227,197,197)!important;
+}
+.container-modal{
+    justify-content: center;
+}
+.modal-header{
+    background-color: #A50845;
+    width: 100%;
+}
+.container-input{  
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.datos1{
+    justify-content: center;
+    width: 50vw;
+    display:flex;
+    gap:10px
+}
+.datos-user{
+    align-items: center!important;
+    justify-content: center!important;
+    display:flex!important;
+    gap:10px;
+    border-radius: 10px;
+    background-color: #a5084457;
+}
+
+@media only screen and (min-width: 1400px) and (min-height:700px) {
+
+    .datos-user{
+        margin-left: 10rem;
+        align-items: center!important;
+        justify-content: center!important;
+        display:flex!important;
+        gap:10px;
+        border-radius: 10px;
+        background-color: #a5084457;
+    }
+    .title-2{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+}

@@ -1,0 +1,50 @@
+.container-home {
+    width: 100vw;
+    height: 100vh;
+    background-color: #A50845; 
+    display:flex;
+    
+}
+.container-left{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;  
+    width: 50vw;
+    flex-direction: column;
+}
+#imgMain{
+    width: 10%;
+}
+.container-right{
+    display:flex;
+    width: 50vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;  
+}
+/*VISTA MOBILE*/
+@media only screen and (min-width: 360px) and (max-width:768px){
+   .container-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   } 
+   .container-left{
+    width: 100vw;
+    margin-bottom: 80px;
+   }   
+}
+/*VISTA TV (1080 X 1920)*/
+@media only screen and (min-width: 1080px) and (min-height: 1920px){ 
+   #imgMain{
+    width: 150px;
+   }
+   .btn{
+    margin-top:15px;
+    width: 220px;
+    height: 50px;
+    font-size: 25px!important;
+   }
+}

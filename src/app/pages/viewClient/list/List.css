@@ -1,0 +1,168 @@
+.container-main{
+    margin:0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh!important;
+    background-color:white;
+}
+.container-header{
+     height: 15vh!important;
+     width: 100vw!important;
+}
+.container-lang{
+    height: 8vh!important;
+    width: 100vw;
+    display:Flex;
+    align-items: center!important;
+    flex-wrap: wrap;
+    color:white;
+    font-size: 20px;
+}
+.container-list{
+    padding: 3em;
+}
+/*propiedades para la card en fullhd*/
+.container-card{
+    padding: 4px;
+    width: 12vw!important;
+    width: 18vw!important;
+}
+.container-menu{
+     background-color: #198754;
+     display:flex;
+     justify-content: space-between;
+     color:white;
+     height: 2vh!important;
+     padding: 1.0em;
+     font-size: 25px;
+     font-weight: 500;
+}
+.contador-car{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #ffffff;
+    font-weight: 700;
+    color:rgb(39, 38, 38);
+}
+ .container-vaul{
+        background-color:#ffffff;
+        color:black;
+        transform: translateY(-1000px)!important;
+        animation-duration: 0.1s!important;
+        width: 100vw;   
+}
+ .vaul-title{
+        background-color: #198754;
+        font-size: 40px;
+        width: 100vw !important;
+        color:white; 
+        height: 5vh;
+ }
+
+
+/*propiedades para la vista de  1080 1920 pantalla televisor*/
+@media only screen and (width: 1080px) and (height: 1920px){
+    .container-main{
+        margin:0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh!important;
+        background-color:white;
+    }
+    .container-lang{
+        font-size: 2.5rem;
+    }
+    .bi{
+        width: 6vw!important;
+        height: 5vh!important;
+    }
+/*propiedades para la card en 1080 1920*/
+    .container-card{
+        width: 30vw!important;
+        padding: 8px;
+    }
+    .container-header{
+        height: 12vh;               
+        width: 100vw;
+    }
+    .container-lang{
+        height: 5vh;
+        width: 100vw;
+        display:Flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        color:white;
+    }
+    .container-list{
+        padding: 3em;
+    }
+    .container-menu{
+        background-color: #198754;
+        display:flex;
+        justify-content: space-between;
+        color:white;
+        height: 4vh;
+        padding: 1.5em;
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .contador-car{
+        display: flex;
+        align-items: center;
+        font-size: 36px;
+        width: 75px;
+        height: 75px;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        background: #ffffff;
+        font-weight: 700;
+        color:rgb(39, 38, 38);
+    }
+    .container-vaul{
+        background-color:#ffffff;
+        color:black;
+        transform: translateY(-1000px)!important;
+        animation-duration: 0.1s!important;
+        width: 100vw;   
+    }
+    .vaul-title{
+        background-color: #198754;
+        font-size: 40px;
+        width: 100vw !important;
+        color:white;
+        padding: 18px;
+        height: 5vh;
+    }
+
+}
+/*vista para celular*/
+@media only screen and (min-width: 10px) and (max-width:768px){
+    .container-card{
+        width:100vw!important;
+        padding: 8px;
+    }
+    .container-vaul{
+        background-color:#ffffff;
+        color:black;
+        transform: translateY(-900px)!important;
+        animation-duration: 0.1s!important;
+        width: 100vw;   
+    }
+    .vaul-title{
+        background-color: #198754;
+        font-size: 20px;
+        width: 100vw !important;
+        color:white;
+        height: 5vh;
+    }
+    
+
+}
+

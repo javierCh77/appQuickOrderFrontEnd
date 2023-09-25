@@ -1,0 +1,13 @@
+
+
+.container-search{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:10px;
+    padding: 8px;
+    
+}
+.inputBuscar{
+    width: 40vw!important;
+}

@@ -1,0 +1,43 @@
+.card-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3rem !important;
+    color:#343a40;
+    text-decoration: none !important;
+}
+h1{
+    
+    color:#363738!important;
+    text-decoration: none !important;
+}
+.card-text{
+    height: 2vh;
+    font-size: 13px!important;
+    text-decoration: none!important;
+}
+.title-card,a{
+    font-size: 30px;
+    text-decoration: none!important;
+}
+
+/*tanali resolucion pantalla para monitor de 42*/
+@media only screen and (min-width: 1080px) and (max-height: 1920px){
+
+    .card-text{
+        height: 2vh;
+        font-size: 25px!important;
+        text-decoration: none!important;
+    }
+    .title-card,a{
+        font-size: 45px;
+        font-weight: 500;
+        text-decoration: none!important;
+    }
+    
+    .swal2-container.swal2-center.swal2-popup {
+        background-color: blue;
+    }
+    
+}
+
+/*vista mobile*/
+

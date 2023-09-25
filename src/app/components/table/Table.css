@@ -1,0 +1,42 @@
+#img-quantity{
+    width: 50px  !important;
+    height: 50px !important;
+}
+
+#quantity{
+    display:flex;
+    flex-direction: row !important;
+}
+
+
+#add, #remove{
+    width: 50px !important;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+ 
+.container-sub{
+   width: 100%;
+}
+
+#total{ 
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: right !important;
+    background-color: #ffc10797;
+    height: 5vh!important;
+}
+#importe{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffc107;
+    height: 5vh!important;    
+}
+#container-button{
+    margin-top: 50px;
+}
+
